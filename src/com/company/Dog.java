@@ -67,7 +67,7 @@ public final class Dog extends Pet {
         }
         System.out.println();
     }
-    public String getInfo(){
+    public final String getInfo(){
         return "Кличка - " + name + "порода - " + breed + "команда - " + comands + super.getInfo();
     }
 }
